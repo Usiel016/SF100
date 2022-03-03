@@ -1,0 +1,62 @@
+body{
+    background-color: black;
+}
+
+header{
+    background-color:darkred;
+    font-family:sans-serif;
+    height: 100px;
+    width: 100%;
+    border-bottom: 2px solid white;    
+}
+
+header img{
+    width: 90px;
+    float: left;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    
+}
+
+header h1{
+    text-align: center; 
+    line-height: 100px;
+}
+
+section{
+    text-align: center;
+    background-color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    height: 1000px;
+    width: 100%;
+    padding-top: 10px;
+}
+
+#menu{
+    text-align: right;
+    background-color: black;
+    height: 12px;
+    width: 100%;
+}
+nav {
+    font-size: x-large;
+    background-color: black;
+    float: right;
+    margin-right: 35px;    
+}
+
+#art2{
+    float: right;
+    width: 50%;    
+}
+
+#art1{
+    float: left;
+    width: 50%;           
+}
+
+footer{
+    background-color: lightblue;
+    text-align: center;
+}
