@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Team PWR GYM</title>
+        <link rel="shortcut icon" type="image/x-icon" href="img/ico.ico"/>
+        <link rel="stylesheet" href="css/estilo.css"/>
+        <link rel="stylesheet" href="css/perfil.css"/>
+        <link rel="stylesheet" href="css/tabla.css"/>
+        <link rel="stylesheet" href="css/estilos_producto.css"/>
+        <script src="https://kit.fontawesome.com/c0fabdf7df.js" crossorigin="anonymous"></script>
+    </head>
+
+    <body>       
+
+        <header class="perfil-h">
+
+            <img src="img/logo.svg"/>
+            <!-- <h1>Team power GYM</h1> -->
+            <div class="usuario">
+                <p>Ismael Fernández Terrones
+                    <img id="foto" src="img/gerente.png" alt="">
+                </p>
+            </div>
+            
+        </header>
+                    
+        <nav class="menu">
+            <a id="her" href="tablacliente.php">
+                <i class="fa-solid fa-child"></i> Clientes
+            </a>
+            <a href="tablaentrenador.html">
+                <i class="fa-solid fa-dumbbell"></i> Entrenadores
+            </a>
+            <a href="tablarecepcionista.html">
+                <i class="fa-solid fa-person-dots-from-line"></i> Recepcionistas
+            </a>
+            <a href="tablaproducto.html">
+                <i class="fa-solid fa-cart-shopping"></i> Productos
+            </a>
+            <a href="tablaservicio.html">
+                <i class="fa-solid fa-hand-holding-dollar"></i> Servicios
+            </a>
+            <a id="inicio" href="index.html">
+                <i class="fa-solid fa-arrow-right-from-bracket"></i> Cerrar Sesion
+            </a>
+        </nav>
+
+        <!--Formulario Clientes-->
+        <h2>Mantener Cliente</h2>
+        <div class="form_cliente">
+            <form action="formcliente.php" method="post">
+                <table class="formulario">
+                    <tr>
+                        <td>
+                            <label for="ap">Apellido paterno:</label><br>
+                            <input class="input" type="text" name="ap" required>
+                        </td>
+                        <td>
+                            <label for="am">Apellido materno:</label><br>
+                            <input class="input" type="text" name="am" required>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="nom">Nombre (s):</label><br>
+                            <input class="input" type="text" name="nom" required>
+                        </td>
+                        <td>
+                            <label for="email">Email:</label><br>
+                            <input class="input" type="email" name="email" required>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="tel">Teléfono:</label><br>
+                            <input class="input" type="tel" name="tel" required>
+                        </td>
+                        <td>
+                            <label for="calle">Calle:</label><br>
+                            <input class="input" type="text" name="calle" required>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="col">Colonia:</label><br>
+                            <input class="input" type="text" name="col" required>
+                        </td>
+                        <td>
+                            <label for="mun">Municipio:</label><br>
+                            <input class="input" type="text" name="mun" required>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="cp">Código postal:</label><br>
+                            <input class="input" type="text" name="cp" required>
+                        </td>
+                        <td>
+                            <label for="fi">Fecha de inscripción:</label><br>
+                            <input class="input" type="date" name="fi" required>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input class="aceptar" type="submit" name="aceptar" value="Aceptar">
+                        </td>
+                        <td>
+                            <input class="cancelar" type="reset" name="cancelar" value="Cancelar">
+                        </td>
+                    </tr>
+                </table>
+            </form>
+        </div>
+    </body>
+</html>

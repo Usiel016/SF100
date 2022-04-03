@@ -1,0 +1,85 @@
+.form_producto{
+    max-width: 100%;
+    overflow: hidden;
+}
+
+h2{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 40px;
+    text-align: center;
+    font-style: bold;
+    color: #ffb612;
+    margin-top: 3%;
+}
+
+.formulario{
+    border: none;
+    width: 70%;
+    border-radius: 6px;
+    padding: 3%;
+    background-color: lightgray;
+    margin: auto;
+}
+
+.formulario .input{
+    width: 100%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #272626;
+    font-size: 12px;
+    padding: 6px;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.formulario label{
+    width: 100%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #272626;
+    text-align-last: left;
+    font-size: 12px;
+    padding: 8px;
+    box-sizing: border-box;
+}
+
+.formulario .aceptar{
+    width: 100%;
+    margin-top: 15px;
+    background-color: #4caf50;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #111111;
+    font-size: 14px;
+    padding: 8px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-align-last: center;
+}
+
+.formulario .aceptar:hover{
+    color: white;
+    font-size: 16px;
+}
+
+.formulario .cancelar{
+    width: 100%;
+    margin-top: 15px;
+    background-color: #db442a;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #111111;
+    font-size: 14px;
+    padding: 8px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-align-last: center;
+}
+
+.formulario .cancelar:hover{
+    color: white;
+    font-size: 16px;
+}
+
+.formulario td{
+    border: none;
+}

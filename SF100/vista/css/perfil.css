@@ -1,0 +1,20 @@
+/* daremos diseño a la imagen de inicio y la colocaremos a la izquierda despues del mensaje de bienvenida */
+.usuario{
+    float: right;
+
+}
+
+.usuario p{    
+    font-size: 25px;
+    color: white;
+
+}
+/* daremos diseño a la imagen de inicio y la colocaremos a la izquierda despues del mensaje de bienvenida */
+#foto{
+    float: right;
+    width: 50px;
+    border-radius:50%;
+    margin-left: 15px ;
+    margin-right: 15px ;
+    margin-top: -10px;
+}

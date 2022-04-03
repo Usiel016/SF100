@@ -1,0 +1,36 @@
+.title{
+    text-align: center;
+    color: #ffb612;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#add{
+    float:inline-start;
+    width: 50px;
+    border-radius: 50%;
+    border: solid green;
+    margin: auto auto 10px;
+}
+
+table, td, th{
+    border: solid 1px rgb(0, 0, 0);
+}
+
+.tabla{
+    margin: 9% auto 9% auto;
+    max-width: 55%;
+    overflow: hidden;
+}
+
+.tabla td{
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.tabla a{
+    color: rgb(255, 255, 255);
+}
+
+.tabla a:hover{
+    color: green;
+}

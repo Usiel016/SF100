@@ -1,0 +1,380 @@
+#titulo{
+    font-size: xx-large;
+    text-align: center;
+    color: #ffb612;
+    padding: 15px;
+}
+
+.producto{
+    background-color: #fff;
+}
+
+.producto p{
+    color: #000;
+}
+
+div{
+    max-width: 100%;   
+    margin-top: 20px;
+    margin-bottom: 20px;
+    overflow:hidden;
+    text-align: center;    
+}
+
+div p{    
+    margin-left: 30px;    
+    margin-right: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    color: #ffffff;   
+}
+
+h3{        
+    text-align: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #ffb612;    
+}
+
+
+/* imagenes */
+.blog1{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        float: right;
+        height: 100vh;
+}
+
+.blog1{
+    position:relative;
+    height: 250px;
+    cursor:pointer; 
+    width: 350px;
+    overflow: hidden;
+    border-radius: 6px;
+    box-shadow: 0px 15px 25px rgba(0,0,0,0.50);
+}
+
+.blog1 img{
+    width: 100%;
+    height: 100%;
+    transition: all 400ms ease-out;
+    will-change: transform;
+}
+
+.blog1 .capa1{
+    position:absolute;
+    top: 0;
+    width: 100%;
+    height: 80%;
+    background: rgba(0, 0, 0, 0.7);
+    transition: all 400ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+}
+
+.blog1:hover > .capa1 {
+    opacity: 1;
+    visibility: visible;
+}
+
+.blog1:hover > img{
+    transform: scale(1.3);
+}
+
+.blog1 .capa1 #p{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #fff;
+    font-size: 15px;       
+    width: 100%;
+    max-width: 220px;
+    margin: auto;
+    margin-top: 20%;
+}
+
+/* imagenes */
+.blog2{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        float: left;
+        height: 100vh;
+}
+
+.blog2{
+    position:relative;
+    height: 250px;
+    cursor:pointer; 
+    width: 350px;
+    overflow: hidden;
+    border-radius: 6px;
+    box-shadow: 0px 15px 25px rgba(0,0,0,0.50);
+}
+
+.blog2 img{
+    width: 100%;
+    height: 100%;
+    transition: all 400ms ease-out;
+    will-change: transform;
+}
+
+.blog2 .capa1{
+    position:absolute;
+    top: 0;
+    width: 100%;
+    height: 80%;
+    background: rgba(0, 0, 0, 0.7);
+    transition: all 400ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+}
+
+.blog2:hover > .capa1 {
+    opacity: 1;
+    visibility: visible;
+}
+
+.blog2:hover > img{
+    transform: scale(1.3);
+}
+
+.blog2 .capa1 #p{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #fff;
+    font-size: 15px;       
+    width: 100%;
+    max-width: 220px;
+    margin: auto;
+    margin-top: 20%;
+}
+
+
+/* imagenes */
+.blog3{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    float: left;
+    height: 100vh;
+}
+
+.blog3{
+position:relative;
+height: 250px;
+cursor:pointer; 
+width: 350px;
+overflow: hidden;
+border-radius: 6px;
+box-shadow: 0px 15px 25px rgba(0,0,0,0.50);
+}
+
+.blog3 img{
+width: 100%;
+height: 100%;
+transition: all 400ms ease-out;
+will-change: transform;
+}
+
+.blog3 .capa1{
+position:absolute;
+top: 0;
+width: 100%;
+height: 80%;
+background: rgba(0, 0, 0, 0.7);
+transition: all 400ms ease-out;
+opacity: 0;
+visibility: hidden;
+text-align: center;
+}
+
+.blog3:hover > .capa1 {
+opacity: 1;
+visibility: visible;
+}
+
+.blog3:hover > img{
+transform: scale(1.3);
+}
+
+.blog3 .capa1 #p{
+font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+color: #fff;
+font-size: 15px;       
+width: 100%;
+max-width: 220px;
+margin: auto;
+margin-top: 20%;
+}
+
+/* imagenes */
+.blog4{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    float: right;
+    height: 100vh;
+}
+
+.blog4{
+position:relative;
+height: 250px;
+cursor:pointer; 
+width: 350px;
+overflow: hidden;
+border-radius: 6px;
+box-shadow: 0px 15px 25px rgba(0,0,0,0.50);
+}
+
+.blog4 img{
+width: 100%;
+height: 100%;
+transition: all 400ms ease-out;
+will-change: transform;
+}
+
+.blog4 .capa1{
+position:absolute;
+top: 0;
+width: 100%;
+height: 80%;
+background: rgba(0, 0, 0, 0.7);
+transition: all 400ms ease-out;
+opacity: 0;
+visibility: hidden;
+text-align: center;
+}
+
+.blog4:hover > .capa1 {
+opacity: 1;
+visibility: visible;
+}
+
+.blog4:hover > img{
+transform: scale(1.3);
+}
+
+.blog4 .capa1 #p{
+font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+color: #fff;
+font-size: 15px;       
+width: 100%;
+max-width: 220px;
+margin: auto;
+margin-top: 20%;
+}
+
+
+/* imagenes */
+.blog5{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    float: right;
+    height: 100vh;
+}
+
+.blog5{
+position:relative;
+height: 250px;
+cursor:pointer; 
+width: 350px;
+overflow: hidden;
+border-radius: 6px;
+box-shadow: 0px 15px 25px rgba(0,0,0,0.50);
+}
+
+.blog5 img{
+width: 100%;
+height: 100%;
+transition: all 400ms ease-out;
+will-change: transform;
+}
+
+.blog5 .capa1{
+position:absolute;
+top: 0;
+width: 100%;
+height: 80%;
+background: rgba(0, 0, 0, 0.7);
+transition: all 400ms ease-out;
+opacity: 0;
+visibility: hidden;
+text-align: center;
+}
+
+.blog5:hover > .capa1 {
+opacity: 1;
+visibility: visible;
+}
+
+.blog5:hover > img{
+transform: scale(1.3);
+}
+
+.blog5 .capa1 #p{
+font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+color: #fff;
+font-size: 15px;       
+width: 100%;
+max-width: 220px;
+margin: auto;
+margin-top: 20%;
+}
+
+/* imagenes */
+.blog6{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    float: left;
+    height: 100vh;
+}
+
+.blog6{
+position:relative;
+height: 250px;
+cursor:pointer; 
+width: 350px;
+overflow: hidden;
+border-radius: 6px;
+box-shadow: 0px 15px 25px rgba(0,0,0,0.50);
+}
+
+.blog6 img{
+width: 100%;
+height: 100%;
+transition: all 400ms ease-out;
+will-change: transform;
+}
+
+.blog6 .capa1{
+position:absolute;
+top: 0;
+width: 100%;
+height: 80%;
+background: rgba(0, 0, 0, 0.7);
+transition: all 400ms ease-out;
+opacity: 0;
+visibility: hidden;
+text-align: center;
+}
+
+.blog6:hover > .capa1 {
+opacity: 1;
+visibility: visible;
+}
+
+.blog6:hover > img{
+transform: scale(1.3);
+}
+
+.blog6 .capa1 #p{
+font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+color: #fff;
+font-size: 15px;       
+width: 100%;
+max-width: 220px;
+margin: auto;
+margin-top: 20%;
+}

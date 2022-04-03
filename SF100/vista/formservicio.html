@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Team PWR GYM</title>
+        <link rel="shortcut icon" type="image/x-icon" href="img/ico.ico"/>
+        <link rel="stylesheet" href="css/estilo.css"/>
+        <link rel="stylesheet" href="css/perfil.css"/>
+        <link rel="stylesheet" href="css/tabla.css"/>
+        <link rel="stylesheet" href="css/estilos_producto.css"/>
+        <script src="https://kit.fontawesome.com/c0fabdf7df.js" crossorigin="anonymous"></script>
+    </head>
+
+    <body>       
+
+        <header class="perfil-h">
+
+            <img src="img/logo.svg"/><br>
+            <!-- <h1>Team power GYM</h1> -->
+            <div class="usuario">
+                <p>Ismael Fernández Terrones
+                    <img id="foto" src="img/gerente.png" alt="">
+                </p>
+            </div>
+            
+        </header>
+                    
+        <nav class="menu">
+            <a href="tablacliente.php">
+                <i class="fa-solid fa-child"></i> Clientes
+            </a>
+            <a href="tablaentrenador.html">
+                <i class="fa-solid fa-dumbbell"></i> Entrenadores
+            </a>
+            <a href="tablarecepcionista.html">
+                <i class="fa-solid fa-person-dots-from-line"></i> Recepcionistas
+            </a>
+            <a href="tablaproducto.html">
+                <i class="fa-solid fa-cart-shopping"></i> Productos
+            </a>
+            <a id="her" href="tablaservicio.html">
+                <i class="fa-solid fa-hand-holding-dollar"></i> Servicios
+            </a>
+            <a id="inicio" href="index.html">
+                <i class="fa-solid fa-arrow-right-from-bracket"></i> Cerrar Sesion
+            </a>
+        </nav>
+
+        <!--Formulario Servicios-->
+        <h2>Mantener Servicio</h2>
+        <div class="form_servicio">
+            <form method="post" action="tablaservicio.html">
+                <table class="formulario">
+                    <tr>
+                        <td>
+                            <label for="clase">Nombre de la clase:</label><br>
+                            <input class="input" type="text" name="clase" required>
+                        </td>
+                        <td>
+                            <label for="dia">Día:</label><br>
+                            <input class="input" type="date" name="dia" required>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="hor">Horario:</label><br>
+                            <input class="input" type="time" name="hor" required>
+                        </td>
+                        <td>
+                            <label for="ent">Nombre del entrenador:</label><br>
+                            <input class="input" type="text" name="ent" required>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="cap">Capacidad:</label><br>
+                            <input class="input" type="number" name="cap" required>
+                        </td>
+                        <td>
+                            <label for="desc">Descripción:</label><br>
+                            <input class="input" type="text" name="desc" required>
+                        </td>
+                    </tr>
+                        <td>
+                            <input class="aceptar" type="submit" name="aceptar" value="Aceptar">
+                        </td>
+                        <td>
+                            <input class="cancelar" type="reset" name="cancelar" value="Cancelar">
+                        </td>
+                    </tr>
+                </table>
+            </form>
+        </div>
+    </body>
+</html>

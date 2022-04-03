@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Team PWR GYM</title>
+        <link rel="shortcut icon" type="image/x-icon" href="img/ico.ico"/>
+        <link rel="stylesheet" href="css/estilo.css"/>
+        <link rel="stylesheet" href="css/perfil.css"/>
+        <link rel="stylesheet" href="css/tabla.css"/>
+        <link rel="stylesheet" href="css/estilos_producto.css"/>
+        <script src="https://kit.fontawesome.com/c0fabdf7df.js" crossorigin="anonymous"></script>
+    </head>
+
+    <body>       
+
+        <header class="perfil-h">
+
+            <img src="img/logo.svg"/><br>
+            <!-- <h1>Team power GYM</h1> -->
+            <div class="usuario">
+                <p>Ismael Fernández Terrones
+                    <img id="foto" src="img/gerente.png" alt="">
+                </p>
+            </div>
+            
+        </header>
+                    
+        <nav class="menu">
+            <a href="tablacliente.php">
+                <i class="fa-solid fa-child"></i> Clientes
+            </a>
+            <a id="her" href="tablaentrenador.html">
+                <i class="fa-solid fa-dumbbell"></i> Entrenadores
+            </a>
+            <a href="tablarecepcionista.html">
+                <i class="fa-solid fa-person-dots-from-line"></i> Recepcionistas
+            </a>
+            <a href="tablaproducto.html">
+                <i class="fa-solid fa-cart-shopping"></i> Productos
+            </a>
+            <a href="tablaservicio.html">
+                <i class="fa-solid fa-hand-holding-dollar"></i> Servicios
+            </a>
+            <a id="inicio" href="index.html">
+                <i class="fa-solid fa-arrow-right-from-bracket"></i> Cerrar Sesion
+            </a>
+        </nav>
+
+        <!--Formulario Entrenadores-->
+        <h2>Mantener Entrenador</h2>
+        <div class="form_entrenador">
+            <form method="post" action="tablaentrenador.html">
+                <table class="formulario">
+                    <tr>
+                        <td>
+                            <label for="ap">Apellido paterno:</label><br>
+                            <input class="input" type="text" name="ap" required>
+                        </td>
+                        <td>
+                            <label for="am">Apellido materno:</label><br>
+                            <input class="input" type="text" name="am" required>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="nom">Nombre (s):</label><br>
+                            <input class="input" type="text" name="nom" required>
+                        </td>
+                        <td>
+                            <label for="email">Email:</label><br>
+                            <input class="input" type="email" name="email" required>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="tel">Teléfono:</label><br>
+                            <input class="input" type="tel" name="tel" required>
+                        </td>
+                        <td>
+                            <label for="rfc">RFC:</label><br>
+                            <input class="input" type="text" name="rfc" required>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="il">Inicio de labores:</label><br>
+                            <input class="input" type="date" name="il" required>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input class="aceptar" type="submit" name="aceptar" value="Aceptar">
+                        </td>
+                        <td>
+                            <input class="cancelar" type="reset" name="cancelar" value="Cancelar">
+                        </td>
+                    </tr>
+                </table>
+            </form>
+        </div>
+    </body>
+</html>
